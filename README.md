@@ -1,2 +1,1 @@
-# budget-app
-A simple Budget App project using React, Javascript and Tailwind CSS
+# A simple Budget App project using React, Javascript and Tailwind CSS
