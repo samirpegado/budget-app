@@ -26,18 +26,13 @@ const AddEntradaModal = ({ show, handleClose }) => {
                 {/*content*/}
                 <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                   {/*header*/}
-                  <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
+                  <div className="flex justify-between p-5 border-b border-solid border-slate-200 rounded-t items-center gap-2">
                     <h3 className="text-2xl font-semibold">
-                      Adicionar entradas
+                      Adicionar receita
                     </h3>
-                    <button
-                      className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                      onClick={() => console.log(clicou)}
-                    >
-                      <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                        ×
-                      </span>
-                    </button>
+                    <div onClick={() => handleClose()} className='w-6 hover:bg-red-600 hover:rounded-full cursor-pointer'>
+                    <img src="" alt="" srcSet="/assets/close.svg"/>            
+                    </div>
                   </div>
                   {/*body*/}
 
